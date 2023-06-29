@@ -3,11 +3,11 @@
 body{
    font-family: Quicksand, sans-serif;
    max-width: 40rem;
-   min-height: 100vh;
+   min-height: fit-content;
    margin: auto;
    padding: 0;
-   border-left: 1px solid black;
-   border-right: 1px solid black;
+   border: 1px solid #3399E3;
+   border-block: none;
 }
 
 nav{
@@ -15,16 +15,19 @@ nav{
    justify-content: space-between;
    align-items: center;
    background-color: #ff5f2b1d;
+   background-color: #3399E3;
+   color: #f9faf5;
    padding: .7em 1em;
    box-shadow: 0px 3px 10px rgba(55, 100, 100, .25);
 }
 
 .page-title{
-   color: #363424;
+   
 }
 
 .links a{
   margin-inline: .3em;
+  color: inherit;
 }
 
 section {
@@ -42,32 +45,54 @@ section {
 
 .bob{
    font-size: 4em;
-   
+   color: #3399E3;
 }
 .txt{
    text-align: center;
 }
 .bob-cont em{
-   
+   color: #1F3038;
    font-size: .6rem;
 }
 
 .bob-data{
    padding-bottom: .5em;
-   border: 1px solid #872d3e;
+   border: 1px solid #3399E3;
    font-size:.8rem;
-   color: #4a313b;
+   color: #1F3038;
+   ccolor: #3399E3;
    line-height: 1.5rem;
 }
 .intro{
-   color: #9f424f;
+   color: #3399E3;
+   
 }
 
-.bbobs-detail{
+.bobs-detail{
    line-height: 1.5rem;
 }
 
 .bob-cont h4, .bob{
  margin: 0;
  text-align: center;
+}
+.get-bob{
+   color: #3399E3;
+}
+
+.ul-title{
+   font-size: 1.2em;
+   color: #3399E3;
+   font-weight: bold;
+   
+}
+
+footer{
+   background-color: #3399E3;
+   color: white;
+   text-align: center;
+   margin-top: 3em;
+   font-size: .7em;
+   font-style: italic;
+   padding: .5em;
 }
