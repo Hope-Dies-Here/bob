@@ -2,7 +2,7 @@
 
 body{
    font-family: Quicksand, sans-serif;
-   max-width: 40rem;
+   max-width: 720px;
    min-height: fit-content;
    margin: auto;
    padding: 0;
@@ -94,4 +94,20 @@ footer{
    font-size: .7em;
    font-style: italic;
    padding: .5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 800px){
+   
 }
