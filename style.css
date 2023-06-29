@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+body{
+   font-family: Quicksand, sans-serif;
+   max-width: 40rem;
+   min-height: 100vh;
+   margin: auto;
+   padding: 0;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #ff5f2b1d;
+   padding: .7em 1em;
+   box-shadow: 0px 3px 10px rgba(55, 100, 100, .25);
+}
+
+.page-title{
+   color: #363424;
+}
+
+.links a{
+  margin-inline: .3em;
+}
+
+section {
+   padding: .5em;
+}
+
+.bob-cont, .bob-data{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   height: fit-content;
+   padding-block: 2em;
+}
+
+.bob{
+   font-size: 4em;
+   
+}
+.txt{
+   text-align: center;
+}
+.bob-cont em{
+   
+   font-size: .6rem;
+}
+
+.bob-data{
+   padding-bottom: .5em;
+   border: 1px solid #872d3e;
+   font-size:.8rem;
+   color: #4a313b;
+   line-height: 1.5rem;
+}
+.intro{
+   color: #9f424f;
+}
+
+.bbobs-detail{
+   line-height: 1.5rem;
+}
+
+.bob-cont h4, .bob{
+ margin: 0;
+ text-align: center;
+}
